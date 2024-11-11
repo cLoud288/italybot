@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from flask import Flask, render_template_string, abort
 from threading import Thread
 
-# Замените на токен вашего бота
-BOT_TOKEN = ''
+
+BOT_TOKEN = '7641894287:AAHfaPvYyiMEJFi-HrC-tI8MlBnU_keoWro'
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
 
